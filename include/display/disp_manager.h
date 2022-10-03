@@ -7,6 +7,8 @@ typedef struct Displayer {
 	int xRes;	//x方向有多少个像素
 	int yRes;	//y方向有多少个像素
 	int bpp;	//bit per pixel
+
+	unsigned char *pixelData;
 	
 	int (*PutPixel)(struct Displayer *player, int x, int y, unsigned int color);
 	int (*ClearScreen)(struct Displayer *player, unsigned int color);

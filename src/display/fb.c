@@ -89,6 +89,7 @@ static int fb_dev_init(struct Displayer *player)
 	}
 
 	memset(fbPriv->memBase, 0xffffff, fbPriv->buffLen);//0xffffff:white
+	player->pixelData = fbPriv->memBase;
 	fbPriv->init = 1;
 
 	return 0;

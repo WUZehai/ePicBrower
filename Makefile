@@ -13,7 +13,7 @@ TEST_SRC_DIR := ${SRC_DIR}/test
 
 COMPILE_FLAG := -I${INC_DIR} -I${INC_DISPLAY_DIR} -I${INC_RENDER_DIR}
 
-ePicBrower:${SRC_DIR}/*.c ${SRC_DIR}/display/*.c ${SRC_DIR}/render/*.c
+ePicBrower:${SRC_DIR}/*.c ${SRC_DIR}/display/*.c ${SRC_DIR}/render/*.c ${SRC_DIR}/render/operation/*.c
 	@${APP_CC} ${COMPILE_FLAG} $^ -o ${OUT_DIR}/$@
 
 test_jpg:${TEST_SRC_DIR}/test_jpg.c ${TEST_SRC_DIR}/display.c ${LIB_DIR}/libjpeg.a
