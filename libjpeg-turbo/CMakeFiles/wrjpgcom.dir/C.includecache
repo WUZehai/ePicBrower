@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/book/work/ePicBrower/libjpeg-turbo/jconfig.h
+
+/home/book/work/ePicBrower/libjpeg-turbo/jconfigint.h
+
+/home/book/work/ePicBrower/libjpeg-turbo/jinclude.h
+jconfig.h
+/home/book/work/ePicBrower/libjpeg-turbo/jconfig.h
+jconfigint.h
+/home/book/work/ePicBrower/libjpeg-turbo/jconfigint.h
+stddef.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+errno.h
+-
+
+/home/book/work/ePicBrower/libjpeg-turbo/wrjpgcom.c
+jinclude.h
+/home/book/work/ePicBrower/libjpeg-turbo/jinclude.h
+ctype.h
+-
+fcntl.h
+-
+io.h
+-
+

@@ -1,0 +1,10 @@
+prefix=/home/book/work/ePicBrower/libjpeg-turbo/out
+exec_prefix=/home/book/work/ePicBrower/libjpeg-turbo/out
+libdir=/home/book/work/ePicBrower/libjpeg-turbo/out/lib
+includedir=/home/book/work/ePicBrower/libjpeg-turbo/out/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 2.1.4
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

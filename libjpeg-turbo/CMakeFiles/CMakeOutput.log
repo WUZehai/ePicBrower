@@ -1,0 +1,385 @@
+The target system is: Linux -  - arm
+The host system is: Linux - 4.18.0-15-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/3.15.5/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ed421/fast && /usr/bin/make -f CMakeFiles/cmTC_ed421.dir/build.make CMakeFiles/cmTC_ed421.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed421.dir/testCCompiler.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_ed421.dir/testCCompiler.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ed421
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed421.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc      CMakeFiles/cmTC_ed421.dir/testCCompiler.c.o  -o cmTC_ed421 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5122/fast && /usr/bin/make -f CMakeFiles/cmTC_c5122.dir/build.make CMakeFiles/cmTC_c5122.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o   -c /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc.br_real
+Target: arm-buildroot-linux-gnueabihf
+Configured with: ./configure --prefix=/home/book/stm32mp157/ST-Buildroot/output/host --sysconfdir=/home/book/stm32mp157/ST-Buildroot/output/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/home/book/stm32mp157/ST-Buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/book/stm32mp157/ST-Buildroot/output/host --with-mpc=/home/book/stm32mp157/ST-Buildroot/output/host --with-mpfr=/home/book/stm32mp157/ST-Buildroot/output/host --with-pkgversion='Buildroot 2020.02-g6515f51-dirty' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-plugins --enable-lto --enable-threads --with-isl=/home/book/stm32mp157/ST-Buildroot/output/host --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=vfpv4-d16 --with-float=hard --with-mode=arm --enable-languages=c,c++,fortran --with-build-time-tools=/home/book/stm32mp157/ST-Buildroot/output/host/arm-buildroot-linux-gnueabihf/bin --enable-shared --enable-libgomp
+Thread model: posix
+gcc version 8.4.0 (Buildroot 2020.02-g6515f51-dirty) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu' '-march=armv7ve+fp'
+ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/cc1 -quiet -v -iprefix /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/ -isysroot /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-a7 -mfloat-abi=hard -mfpu=vfpv4-d16 -mabi=aapcs-linux -marm -mtls-dialect=gnu -march=armv7ve+fp -auxbase-strip CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc7K4vG6.s
+GNU C17 (Buildroot 2020.02-g6515f51-dirty) version 8.4.0 (arm-buildroot-linux-gnueabihf)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include"
+ignoring nonexistent directory "/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"
+ignoring duplicate directory "/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include-fixed"
+ignoring duplicate directory "/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include
+ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include-fixed
+ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/include
+ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C17 (Buildroot 2020.02-g6515f51-dirty) version 8.4.0 (arm-buildroot-linux-gnueabihf)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 65c033bc0d07893a510152e64791909e
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu' '-march=armv7ve+fp'
+ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=vfpv4-d16 -meabi=5 -o CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o /tmp/cc7K4vG6.s
+GNU assembler version 2.32 (arm-buildroot-linux-gnueabihf) using BFD version (GNU Binutils) 2.32
+COMPILER_PATH=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu' '-march=armv7ve+fp'
+Linking C executable cmTC_c5122
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5122.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o  -o cmTC_c5122 
+Using built-in specs.
+COLLECT_GCC=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc.br_real
+COLLECT_LTO_WRAPPER=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/lto-wrapper
+Target: arm-buildroot-linux-gnueabihf
+Configured with: ./configure --prefix=/home/book/stm32mp157/ST-Buildroot/output/host --sysconfdir=/home/book/stm32mp157/ST-Buildroot/output/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/home/book/stm32mp157/ST-Buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/book/stm32mp157/ST-Buildroot/output/host --with-mpc=/home/book/stm32mp157/ST-Buildroot/output/host --with-mpfr=/home/book/stm32mp157/ST-Buildroot/output/host --with-pkgversion='Buildroot 2020.02-g6515f51-dirty' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-plugins --enable-lto --enable-threads --with-isl=/home/book/stm32mp157/ST-Buildroot/output/host --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=vfpv4-d16 --with-float=hard --with-mode=arm --enable-languages=c,c++,fortran --with-build-time-tools=/home/book/stm32mp157/ST-Buildroot/output/host/arm-buildroot-linux-gnueabihf/bin --enable-shared --enable-libgomp
+Thread model: posix
+gcc version 8.4.0 (Buildroot 2020.02-g6515f51-dirty) 
+COMPILER_PATH=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c5122' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu' '-march=armv7ve+fp'
+ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/collect2 -plugin /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/liblto_plugin.so -plugin-opt=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXu6fJd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_c5122 /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/crt1.o /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/crti.o /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/crtbegin.o -L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0 -L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc -L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/lib -L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/crtend.o /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c5122' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu' '-march=armv7ve+fp'
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include]
+    add: [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include-fixed]
+    add: [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/include]
+    add: [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include] ==> [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include]
+  collapse include dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include-fixed] ==> [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include-fixed]
+  collapse include dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/include] ==> [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/include]
+  collapse include dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include] ==> [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include;/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include-fixed;/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/include;/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-buildroot-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_c5122/fast && /usr/bin/make -f CMakeFiles/cmTC_c5122.dir/build.make CMakeFiles/cmTC_c5122.dir/build]
+  ignore line: [make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o   -c /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc.br_real]
+  ignore line: [Target: arm-buildroot-linux-gnueabihf]
+  ignore line: [Configured with: ./configure --prefix=/home/book/stm32mp157/ST-Buildroot/output/host --sysconfdir=/home/book/stm32mp157/ST-Buildroot/output/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/home/book/stm32mp157/ST-Buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/book/stm32mp157/ST-Buildroot/output/host --with-mpc=/home/book/stm32mp157/ST-Buildroot/output/host --with-mpfr=/home/book/stm32mp157/ST-Buildroot/output/host --with-pkgversion='Buildroot 2020.02-g6515f51-dirty' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-plugins --enable-lto --enable-threads --with-isl=/home/book/stm32mp157/ST-Buildroot/output/host --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=vfpv4-d16 --with-float=hard --with-mode=arm --enable-languages=c,c++,fortran --with-build-time-tools=/home/book/stm32mp157/ST-Buildroot/output/host/arm-buildroot-linux-gnueabihf/bin --enable-shared --enable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (Buildroot 2020.02-g6515f51-dirty) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu' '-march=armv7ve+fp']
+  ignore line: [ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/cc1 -quiet -v -iprefix /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/ -isysroot /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/share/cmake-3.15/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-a7 -mfloat-abi=hard -mfpu=vfpv4-d16 -mabi=aapcs-linux -marm -mtls-dialect=gnu -march=armv7ve+fp -auxbase-strip CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o -version -o /tmp/cc7K4vG6.s]
+  ignore line: [GNU C17 (Buildroot 2020.02-g6515f51-dirty) version 8.4.0 (arm-buildroot-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/../../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include]
+  ignore line: [ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/include-fixed]
+  ignore line: [ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/include]
+  ignore line: [ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Buildroot 2020.02-g6515f51-dirty) version 8.4.0 (arm-buildroot-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 65c033bc0d07893a510152e64791909e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu' '-march=armv7ve+fp']
+  ignore line: [ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/bin/as -v -march=armv7ve -mfloat-abi=hard -mfpu=vfpv4-d16 -meabi=5 -o CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o /tmp/cc7K4vG6.s]
+  ignore line: [GNU assembler version 2.32 (arm-buildroot-linux-gnueabihf) using BFD version (GNU Binutils) 2.32]
+  ignore line: [COMPILER_PATH=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu' '-march=armv7ve+fp']
+  ignore line: [Linking C executable cmTC_c5122]
+  ignore line: [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5122.dir/link.txt --verbose=1]
+  ignore line: [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o  -o cmTC_c5122 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/lto-wrapper]
+  ignore line: [Target: arm-buildroot-linux-gnueabihf]
+  ignore line: [Configured with: ./configure --prefix=/home/book/stm32mp157/ST-Buildroot/output/host --sysconfdir=/home/book/stm32mp157/ST-Buildroot/output/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/home/book/stm32mp157/ST-Buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/book/stm32mp157/ST-Buildroot/output/host --with-mpc=/home/book/stm32mp157/ST-Buildroot/output/host --with-mpfr=/home/book/stm32mp157/ST-Buildroot/output/host --with-pkgversion='Buildroot 2020.02-g6515f51-dirty' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-plugins --enable-lto --enable-threads --with-isl=/home/book/stm32mp157/ST-Buildroot/output/host --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=vfpv4-d16 --with-float=hard --with-mode=arm --enable-languages=c,c++,fortran --with-build-time-tools=/home/book/stm32mp157/ST-Buildroot/output/host/arm-buildroot-linux-gnueabihf/bin --enable-shared --enable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (Buildroot 2020.02-g6515f51-dirty) ]
+  ignore line: [COMPILER_PATH=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c5122' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu' '-march=armv7ve+fp']
+  link line: [ /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/collect2 -plugin /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/liblto_plugin.so -plugin-opt=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXu6fJd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_c5122 /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/crt1.o /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/crti.o /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/crtbegin.o -L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0 -L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc -L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/lib -L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/crtend.o /home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/crtn.o]
+    arg [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../libexec/gcc/arm-buildroot-linux-gnueabihf/8.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccXu6fJd.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c5122] ==> ignore
+    arg [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/crt1.o] ==> ignore
+    arg [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/crti.o] ==> ignore
+    arg [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/crtbegin.o] ==> ignore
+    arg [-L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0] ==> dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0]
+    arg [-L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc] ==> dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc]
+    arg [-L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/lib] ==> dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/lib]
+    arg [-L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_c5122.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/crtend.o] ==> ignore
+    arg [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib/crtn.o] ==> ignore
+  collapse library dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0] ==> [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0]
+  collapse library dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc] ==> [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc]
+  collapse library dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0/../../../../arm-buildroot-linux-gnueabihf/lib] ==> [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/lib]
+  collapse library dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc/arm-buildroot-linux-gnueabihf/8.4.0;/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/lib/gcc;/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/lib;/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/lib;/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53e3e/fast && /usr/bin/make -f CMakeFiles/cmTC_53e3e.dir/build.make CMakeFiles/cmTC_53e3e.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53e3e.dir/CheckIncludeFile.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_53e3e.dir/CheckIncludeFile.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_53e3e
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e3e.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc      CMakeFiles/cmTC_53e3e.dir/CheckIncludeFile.c.o  -o cmTC_53e3e 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab891/fast && /usr/bin/make -f CMakeFiles/cmTC_ab891.dir/build.make CMakeFiles/cmTC_ab891.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab891.dir/CheckIncludeFile.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_ab891.dir/CheckIncludeFile.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ab891
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab891.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc      CMakeFiles/cmTC_ab891.dir/CheckIncludeFile.c.o  -o cmTC_ab891 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be61e/fast && /usr/bin/make -f CMakeFiles/cmTC_be61e.dir/build.make CMakeFiles/cmTC_be61e.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be61e.dir/CheckIncludeFile.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_be61e.dir/CheckIncludeFile.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_be61e
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be61e.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc      CMakeFiles/cmTC_be61e.dir/CheckIncludeFile.c.o  -o cmTC_be61e 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b76a1/fast && /usr/bin/make -f CMakeFiles/cmTC_b76a1.dir/build.make CMakeFiles/cmTC_b76a1.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b76a1.dir/SIZE_T.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_b76a1.dir/SIZE_T.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CheckTypeSize/SIZE_T.c
+Linking C executable cmTC_b76a1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b76a1.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc      CMakeFiles/cmTC_b76a1.dir/SIZE_T.c.o  -o cmTC_b76a1 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3279/fast && /usr/bin/make -f CMakeFiles/cmTC_f3279.dir/build.make CMakeFiles/cmTC_f3279.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3279.dir/UNSIGNED_LONG.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_f3279.dir/UNSIGNED_LONG.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CheckTypeSize/UNSIGNED_LONG.c
+Linking C executable cmTC_f3279
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3279.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc      CMakeFiles/cmTC_f3279.dir/UNSIGNED_LONG.c.o  -o cmTC_f3279 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_54a19/fast && /usr/bin/make -f CMakeFiles/cmTC_54a19.dir/build.make CMakeFiles/cmTC_54a19.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54a19.dir/src.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -DHAVE_BUILTIN_CTZL   -o CMakeFiles/cmTC_54a19.dir/src.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_54a19
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54a19.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc  -DHAVE_BUILTIN_CTZL    CMakeFiles/cmTC_54a19.dir/src.c.o  -o cmTC_54a19 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+Performing C SOURCE FILE Test INLINE_WORKS succeeded with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b8e2/fast && /usr/bin/make -f CMakeFiles/cmTC_0b8e2.dir/build.make CMakeFiles/cmTC_0b8e2.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b8e2.dir/src.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -DINLINE_WORKS   -o CMakeFiles/cmTC_0b8e2.dir/src.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0b8e2
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b8e2.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc  -DINLINE_WORKS    CMakeFiles/cmTC_0b8e2.dir/src.c.o  -o cmTC_0b8e2 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__inline__ __attribute__((always_inline)) static int foo(void) { return 0; } int main(void) { return foo(); }
+Performing C SOURCE FILE Test HAVE_THREAD_LOCAL succeeded with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f094/fast && /usr/bin/make -f CMakeFiles/cmTC_1f094.dir/build.make CMakeFiles/cmTC_1f094.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f094.dir/src.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -DHAVE_THREAD_LOCAL   -o CMakeFiles/cmTC_1f094.dir/src.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1f094
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f094.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc  -DHAVE_THREAD_LOCAL    CMakeFiles/cmTC_1f094.dir/src.c.o  -o cmTC_1f094 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__thread int i;  int main(void) { i = 0;  return i; }
+Performing C SOURCE FILE Test HAVE_VERSION_SCRIPT succeeded with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f75c/fast && /usr/bin/make -f CMakeFiles/cmTC_7f75c.dir/build.make CMakeFiles/cmTC_7f75c.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f75c.dir/src.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -DHAVE_VERSION_SCRIPT -Wl,--version-script,/home/book/work/ePicBrower/libjpeg-turbo/conftest.map   -o CMakeFiles/cmTC_7f75c.dir/src.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7f75c
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f75c.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc  -DHAVE_VERSION_SCRIPT -Wl,--version-script,/home/book/work/ePicBrower/libjpeg-turbo/conftest.map    CMakeFiles/cmTC_7f75c.dir/src.c.o  -o cmTC_7f75c 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NEON succeeded with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92897/fast && /usr/bin/make -f CMakeFiles/cmTC_92897.dir/build.make CMakeFiles/cmTC_92897.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92897.dir/src.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -DHAVE_NEON -mfpu=neon   -o CMakeFiles/cmTC_92897.dir/src.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_92897
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92897.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc  -DHAVE_NEON -mfpu=neon    CMakeFiles/cmTC_92897.dir/src.c.o  -o cmTC_92897 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include <arm_neon.h>
+    int main(int argc, char **argv) {
+      uint16x8_t input = vdupq_n_u16((uint16_t)argc);
+      uint8x8_t output = vmovn_u16(input);
+      return (int)output[0];
+    }
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-buildroot-linux-gnueabihf-gcc.br_real (Buildroot 2020.02-g6515f51-dirty) 8.4.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C SOURCE FILE Test HAVE_HARD_FLOAT succeeded with the following output:
+Change Dir: /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eab40/fast && /usr/bin/make -f CMakeFiles/cmTC_eab40.dir/build.make CMakeFiles/cmTC_eab40.dir/build
+make[1]: Entering directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eab40.dir/src.c.o
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -DHAVE_HARD_FLOAT   -o CMakeFiles/cmTC_eab40.dir/src.c.o   -c /home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_eab40
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eab40.dir/link.txt --verbose=1
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc  -DHAVE_HARD_FLOAT    CMakeFiles/cmTC_eab40.dir/src.c.o  -o cmTC_eab40 
+make[1]: Leaving directory '/home/book/work/ePicBrower/libjpeg-turbo/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #if __ARM_PCS_VFP != 1
+    #error "float ABI != hard"
+    #endif
+    int main(void) { return 0; }

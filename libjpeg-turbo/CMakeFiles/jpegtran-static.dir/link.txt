@@ -1,0 +1,1 @@
+/home/book/work/100ask_stm32mp157_pro-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc -O3 -DNDEBUG   CMakeFiles/jpegtran-static.dir/jpegtran.c.o CMakeFiles/jpegtran-static.dir/cdjpeg.c.o CMakeFiles/jpegtran-static.dir/rdswitch.c.o CMakeFiles/jpegtran-static.dir/transupp.c.o  -o jpegtran-static libjpeg.a 

@@ -1,0 +1,30 @@
+#!/bin/sh
+
+set -u
+set -e
+trap onexit INT
+trap onexit TERM
+trap onexit EXIT
+
+TMPDIR=
+
+onexit()
+{
+	if [ ! "$TMPDIR" = "" ]; then
+		rm -rf $TMPDIR
+	fi
+}
+
+if [ -f libjpeg-turbo-2.1.4.armv7hl.rpm ]; then
+	rm -f libjpeg-turbo-2.1.4.armv7hl.rpm
+fi
+
+umask 022
+TMPDIR=`mktemp -d /tmp/libjpeg-turbo-build.XXXXXX`
+
+mkdir -p $TMPDIR/RPMS
+ln -fs `pwd` $TMPDIR/BUILD
+rpmbuild -bb --define "_blddir $TMPDIR/buildroot" --define "_topdir $TMPDIR" \
+	--target armv7hl pkgscripts/rpm.spec; \
+cp $TMPDIR/RPMS/armv7hl/libjpeg-turbo-2.1.4-20221002.armv7hl.rpm \
+	libjpeg-turbo-2.1.4.armv7hl.rpm
